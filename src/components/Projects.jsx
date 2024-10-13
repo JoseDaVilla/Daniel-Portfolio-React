@@ -15,7 +15,11 @@ export const Projects = () => (
                 imgSrc="./img/backend.gif"
                 title="E-commerce Products Manager"
             />
-            
+            <ProjectCard
+                href="https://github.com/JoseDaVilla/ToeTactics-Game"
+                imgSrc="./img/toetactics.gif"
+                title="ToeTactics Game"
+            />
         </div>
     </section>
 );
