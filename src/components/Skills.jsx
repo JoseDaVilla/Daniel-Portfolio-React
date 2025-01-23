@@ -56,40 +56,101 @@ export const Skills = () => {
 const SkillsList = () => (
   <section className="skills">
     <div>
-      <SkillCard icon="fa-brands fa-js" text="JavaScript" />
+      {/* <SkillCard icon="fa-brands fa-js" text="JavaScript" /> */}
       <SkillCard
-        img="./img/BxlTypescript.svg"
+        img="./img/ts.svg"
         alt="TypeScript Icon"
         text="TypeScript"
       />
-      <SkillCard icon="fa-brands fa-react" text="React.js" />
-      <SkillCard icon="fa-brands fa-python" text="Python" />
+
+      <SkillCard
+        img="./img/js.svg"
+        alt="JavaScript Icon"
+        text="JavaScript"
+      />
+
+      <SkillCard
+        img="./img/react.svg"
+        alt="React Icon"
+        text="React.js"
+      />
+
+      <SkillCard
+        img="./img/py.svg"
+        alt="Python Icon"
+        text="Python"
+      />
+
+
+      <SkillCard
+        img="./img/HTML.svg"
+        alt="HTML Icon"
+        text="HTML"
+      />
+      {/* <SkillCard icon="fa-brands fa-react" text="React.js" /> */}
+      {/* <SkillCard icon="fa-brands fa-python" text="Python" /> */}
+
       <SkillCard
         img="./img/SimpleIconsNextdotjs.svg"
         alt="Next.js Icon"
         text="Next.js"
       />
-      <SkillCard icon="fa-brands fa-node" text="Node.js" />
-      <SkillCard icon="fa-brands fa-html5" text="HTML" />
-      <SkillCard icon="fa-brands fa-css3-alt" text="CSS" />
+
       <SkillCard
-        img="./img/mongoIcon.svg"
+        img="./img/figma.svg"
+        alt="Figma Icon"
+        text="Figma"
+      />
+
+      <SkillCard
+        img="./img/mysql.svg"
+        alt="MySQL Icon"
+        text="MySQL"
+      />
+
+      <SkillCard
+        img="./img/nodejs.svg"
+        alt="Node.js Icon"
+        text="Node.js"
+      />
+
+
+      <SkillCard
+        img="./img/css.svg"
+        alt="CSS Icon"
+        text="CSS"
+      />
+
+      <SkillCard
+        img="./img/Mongo.svg"
         alt="MongoDB Icon"
         text="MongoDB"
       />
-      <SkillCard icon="fa-brands fa-sass" text="Sass" />
+
+      <SkillCard
+        img="./img/sass2.svg"
+        alt="Sass Icon"
+        text="Sass"
+      />
+
       <SkillCard
         img="./img/notionIcon.svg"
         alt="Notion Icon"
         text="Notion"
       />
       <SkillCard
-        img="./img/illustratorIcon.svg"
+        img="./img/AI.svg"
         alt="Adobe Illustrator Icon"
         text="Illustrator"
       />
-      <SkillCard img="./img/swagger.svg" alt="Swagger Icon" text="Swagger" />
-      <SkillCard img="./img/socket.svg" alt="Socket.io Icon" text="Socket.io" />
+      <SkillCard img="./img/swagger.svg"
+        alt="Swagger Icon"
+        text="Swagger" />
+
+      <SkillCard img="./img/socket.svg"
+        alt="Socket.io Icon"
+        text="Socket.io" />
+
       <SkillCard
         img="./img/handlebars.svg"
         alt="Handlebars Icon"
@@ -100,8 +161,44 @@ const SkillsList = () => (
         alt="Passport.js Icon"
         text="Passport.js"
       />
-      <SkillCard img="./img/mocha.svg" alt="Mocha Icon" text="Mocha" />
-      <SkillCard img="./img/chai.svg" alt="Chai Icon" text="Chai" />
+
+      <SkillCard
+        img="./img/postgresql.svg"
+        alt="PostgreSQL Icon"
+        text="PostgreSQL"
+      />
+
+
+      <SkillCard
+        img="./img/bootstrap.svg"
+        alt="Bootstrap Icon"
+        text="Bootstrap"
+      />
+
+      <SkillCard
+        img="./img/tailwind.svg"
+        alt="Tailwind CSS Icon"
+        text="Tailwind CSS"
+      />
+      <SkillCard
+        img="./img/mochajs.svg"
+        alt="Mocha Icon"
+        text="Mocha" />
+
+      <SkillCard
+        img="./img/chaijs.svg"
+        alt="Chai Icon"
+        text="Chai" />
+
+      <SkillCard
+        img="./img/git.svg"
+        alt="Git Icon"
+        text="Git" />
+
+      <SkillCard
+        img="./img/github.svg"
+        alt="GitHub Icon"
+        text="GitHub" />
     </div>
   </section>
 );
@@ -109,8 +206,17 @@ const SkillsList = () => (
 const ExpertiseList = () => (
   <section className="skills-expertise">
     <div>
-      <SkillCard icon="fa-regular fa-lightbulb" text="Problem-Solving" />
-      <SkillCard img="./img/teamwork.svg" alt="Teamwork Icon" text="Teamwork" />
+
+      <SkillCard
+        img="./img/light.svg"
+        alt="Light Icon"
+        text="Problem-Solving" />
+
+      <SkillCard
+        img="./img/teamwork.svg"
+        alt="Teamwork Icon"
+        text="Teamwork" />
+
       <SkillCard
         img="./img/communication.svg"
         alt="Communication Icon"
@@ -126,9 +232,20 @@ const ExpertiseList = () => (
         alt="Critical Thinking Icon"
         text="Critical Thinking"
       />
-      <SkillCard img="./img/leadership.svg" alt="Leadership Icon" text="Leadership" />
-      <SkillCard icon="fa-regular fa-clock" text="Time Management" />
-      <SkillCard img="./img/creativity.svg" alt="Creativity Icon" text="Creativity" />
+      <SkillCard
+        img="./img/lead.svg"
+        alt="Leadership Icon"
+        text="Leadership" />
+
+      <SkillCard
+        img="./img/clock.svg"
+        alt="Clock Icon"
+        text="Time Management" />
+
+      <SkillCard
+        img="./img/creativity.svg"
+        alt="Creativity Icon"
+        text="Creativity" />
       <SkillCard
         img="./img/attention.svg"
         alt="Attention to Detail Icon"
@@ -141,11 +258,18 @@ const ExpertiseList = () => (
 const Languages = () => (
   <article className="lg-container">
     <div className="skill-lg-card">
-      <h4> English </h4>
+      <div className="skill-lg-flag">
+        <img src="./img/usflag.svg" alt="usflag" />
+        <h4> English </h4>
+      </div>
       <span className="level-advanced">Advanced B2+</span>
     </div>
+
     <div className="skill-lg-card">
-      <h4> Spanish </h4>
+      <div className="skill-lg-flag">
+        <img src="./img/spanishflag.svg" alt="Spanish flag" />
+        <h4> Spanish </h4>
+      </div>
       <span className="level-native">Native</span>
     </div>
   </article>
@@ -154,7 +278,7 @@ const Languages = () => (
 
 const SkillCard = ({ icon, img, text, alt }) => (
   <article className="skills-cards">
-    {icon ? <i className={icon}></i> : <img src={img} alt={alt} width="21px" height="21px" />}
+    {icon ? <i className={icon}></i> : <img src={img} alt={alt} width="28px" height="28px" />}
     <span>{text}</span>
   </article>
 );

@@ -250,7 +250,7 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
   margin-top: 20px;
   width: 100%;
 }
@@ -263,6 +263,13 @@ h2 {
   padding-left: 10px;
   flex-direction: column;
   border-radius: 8px;
+}
+
+.skill-lg-flag{
+  display: flex;
+  gap: 8px;
+  align-items: start;
+  text-align: center;
 }
 
 .skill-lg-card h4 {
@@ -415,6 +422,7 @@ x-container {
   margin-top: 20px;
   margin-bottom: 50px;
   gap: 10px;
+  text-align: start;
 }
 
 .about-me p{
@@ -485,8 +493,9 @@ x-container {
   .lg-container {
       display: flex;
       flex-direction: row;
+      align-items: start;
       justify-content: space-around;
-      gap: 5px;
+      gap: 10px;
       margin-top: 20px;
       width: 100%;
   }
@@ -560,7 +569,8 @@ x-container {
   .about-me p{
       width: 100%;
       margin: 0;
-      text-align: center;
+      text-align: start;
+      text-wrap:initial;
       padding: 0;
   }
   h2,
