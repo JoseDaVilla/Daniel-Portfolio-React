@@ -206,6 +206,10 @@ h2 {
 }
 
 .tabs label {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  gap: 5px;
   padding: 10px 20px;
   cursor: pointer;
   border-bottom: 1px solid #acacac;
