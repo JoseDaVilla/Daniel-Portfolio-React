@@ -56,83 +56,81 @@ export const Skills = () => {
 const SkillsList = () => (
   <section className="skills">
     <div>
-      {/* <SkillCard icon="fa-brands fa-js" text="JavaScript" /> */}
+      {/* Programming Languages */}
       <SkillCard
         img="./img/ts.svg"
         alt="TypeScript Icon"
         text="TypeScript"
       />
-
       <SkillCard
         img="./img/js.svg"
         alt="JavaScript Icon"
         text="JavaScript"
       />
-
-      <SkillCard
-        img="./img/react.svg"
-        alt="React Icon"
-        text="React.js"
-      />
-
       <SkillCard
         img="./img/py.svg"
         alt="Python Icon"
         text="Python"
       />
-
-
       <SkillCard
         img="./img/HTML.svg"
         alt="HTML Icon"
         text="HTML"
       />
-      {/* <SkillCard icon="fa-brands fa-react" text="React.js" /> */}
-      {/* <SkillCard icon="fa-brands fa-python" text="Python" /> */}
-
-      <SkillCard
-        img="./img/SimpleIconsNextdotjs.svg"
-        alt="Next.js Icon"
-        text="Next.js"
-      />
-
-      <SkillCard
-        img="./img/figma.svg"
-        alt="Figma Icon"
-        text="Figma"
-      />
-
-      <SkillCard
-        img="./img/mysql.svg"
-        alt="MySQL Icon"
-        text="MySQL"
-      />
-
-      <SkillCard
-        img="./img/nodejs.svg"
-        alt="Node.js Icon"
-        text="Node.js"
-      />
-
-
       <SkillCard
         img="./img/css.svg"
         alt="CSS Icon"
         text="CSS"
       />
 
+      {/* Frameworks */}
+      <SkillCard
+        img="./img/react.svg"
+        alt="React Icon"
+        text="React.js"
+      />
+      <SkillCard
+        img="./img/SimpleIconsNextdotjs.svg"
+        alt="Next.js Icon"
+        text="Next.js"
+      />
+      <SkillCard
+        img="./img/nodejs.svg"
+        alt="Node.js Icon"
+        text="Node.js"
+      />
+      <SkillCard
+        img="./img/bootstrap.svg"
+        alt="Bootstrap Icon"
+        text="Bootstrap"
+      />
+      <SkillCard
+        img="./img/tailwind.svg"
+        alt="Tailwind CSS Icon"
+        text="Tailwind CSS"
+      />
+
+      {/* Tools */}
+      <SkillCard
+        img="./img/figma.svg"
+        alt="Figma Icon"
+        text="Figma"
+      />
+      <SkillCard
+        img="./img/mysql.svg"
+        alt="MySQL Icon"
+        text="MySQL"
+      />
       <SkillCard
         img="./img/Mongo.svg"
         alt="MongoDB Icon"
         text="MongoDB"
       />
-
       <SkillCard
         img="./img/sass2.svg"
         alt="Sass Icon"
         text="Sass"
       />
-
       <SkillCard
         img="./img/notionIcon.svg"
         alt="Notion Icon"
@@ -143,14 +141,16 @@ const SkillsList = () => (
         alt="Adobe Illustrator Icon"
         text="Illustrator"
       />
-      <SkillCard img="./img/swagger.svg"
+      <SkillCard
+        img="./img/swagger.svg"
         alt="Swagger Icon"
-        text="Swagger" />
-
-      <SkillCard img="./img/socket.svg"
+        text="Swagger"
+      />
+      <SkillCard
+        img="./img/socket.svg"
         alt="Socket.io Icon"
-        text="Socket.io" />
-
+        text="Socket.io"
+      />
       <SkillCard
         img="./img/handlebars.svg"
         alt="Handlebars Icon"
@@ -161,44 +161,31 @@ const SkillsList = () => (
         alt="Passport.js Icon"
         text="Passport.js"
       />
-
       <SkillCard
         img="./img/postgresql.svg"
         alt="PostgreSQL Icon"
         text="PostgreSQL"
       />
-
-
-      <SkillCard
-        img="./img/bootstrap.svg"
-        alt="Bootstrap Icon"
-        text="Bootstrap"
-      />
-
-      <SkillCard
-        img="./img/tailwind.svg"
-        alt="Tailwind CSS Icon"
-        text="Tailwind CSS"
-      />
       <SkillCard
         img="./img/mochajs.svg"
         alt="Mocha Icon"
-        text="Mocha" />
-
+        text="Mocha"
+      />
       <SkillCard
         img="./img/chaijs.svg"
         alt="Chai Icon"
-        text="Chai" />
-
+        text="Chai"
+      />
       <SkillCard
         img="./img/git.svg"
         alt="Git Icon"
-        text="Git" />
-
+        text="Git"
+      />
       <SkillCard
         img="./img/github.svg"
         alt="GitHub Icon"
-        text="GitHub" />
+        text="GitHub"
+      />
     </div>
   </section>
 );
